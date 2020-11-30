@@ -10,8 +10,8 @@ pathDataFiles=config.paths["data"]
 from difflib import SequenceMatcher
 import textdistance
 from googlesearch import search
-import lxml.html
-
+import requests
+from requests_html import HTMLSession
 
 def mySearch(row):
     if 'NOTYET' in row["search"]:
@@ -118,14 +118,19 @@ def calcOwnedDomains(df, logger,fileDataName ):
     for index, row in df.iterrows():
         if row["searchTitle"] == "-":
             ts = []
-            logger.debug("No title for %s -->let's search", row['denomination'])
+            logger.debug("No title for %s -->let's search - - - - - - - - - - -", row['denomination'])
             for s, d in zip(row["search"], row["domains"]):
                 if d not in domainsToRemove:
                     try:
-                        t = lxml.html.parse(s).find(".//title").text
+                        session = HTMLSession()
+                        response = session.get(s)
+                        t = response.html.find('title', first=True).text
                     except:
                         t="NOT FOUND"
-                    logger.debug("titre : %s : %s", s, t)
+                    if t=="NOT FOUND":
+                        logger.debug("KO : %s", s)
+                    else:
+                        logger.debug("OK : %s : %s", s, t)
                     ts.append(t)
         
             df.at[index, 'searchTitle']=ts
