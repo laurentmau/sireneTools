@@ -2,3 +2,5 @@ __pycache__/
 .ipynb_checkpoints/
 .vscode/
 data/chiffres-cles-2019.csv
+log/
+data/
