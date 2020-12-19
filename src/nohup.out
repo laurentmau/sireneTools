@@ -1,0 +1,504 @@
+[I 07:52:49.318 NotebookApp] JupyterLab extension loaded from /home/ec2-user/dev/python_env/lib/python3.7/site-packages/jupyterlab
+[I 07:52:49.319 NotebookApp] JupyterLab application directory is /home/ec2-user/dev/python_env/share/jupyter/lab
+[I 07:52:49.323 NotebookApp] Serving notebooks from local directory: /home/ec2-user/dev/sireneTools/src
+[I 07:52:49.324 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 07:52:49.326 NotebookApp] https://localhost:8888/
+[I 07:52:49.327 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 07:52:49.333 NotebookApp] No web browser found: could not locate runnable browser.
+[W 07:52:53.405 NotebookApp] SSL Error on 9 ('127.0.0.1', 46766): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 07:52:53.806 NotebookApp] SSL Error on 10 ('127.0.0.1', 46768): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 07:52:56.045 NotebookApp] SSL Error on 10 ('127.0.0.1', 46774): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 07:52:56.046 NotebookApp] SSL Error on 11 ('127.0.0.1', 46776): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 07:52:56.046 NotebookApp] SSL Error on 12 ('127.0.0.1', 46778): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 07:52:56.048 NotebookApp] SSL Error on 13 ('127.0.0.1', 46780): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 07:52:56.532 NotebookApp] SSL Error on 14 ('127.0.0.1', 46782): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 07:52:57.167 NotebookApp] SSL Error on 11 ('127.0.0.1', 46786): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 07:52:57.397 NotebookApp] SSL Error on 10 ('127.0.0.1', 46784): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 07:52:57.797 NotebookApp] SSL Error on 10 ('127.0.0.1', 46796): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 07:53:16.437 NotebookApp] Kernel started: 6f3e37b8-2f01-4a86-aac4-5df650c3d755, name: python3
+[W 07:53:16.474 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20201214075248 (127.0.0.1) 23.46ms referer=https://localhost:8888/notebooks/For%20tests.ipynb
+[W 07:53:17.398 NotebookApp] SSL Error on 29 ('127.0.0.1', 46838): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 07:55:17.848 NotebookApp] Saving file at /For tests.ipynb
+[I 07:56:47.452 NotebookApp] Saving file at /For tests.ipynb
+[I 07:57:17.796 NotebookApp] Saving file at /For tests.ipynb
+[I 08:01:25.081 NotebookApp] Saving file at /For tests.ipynb
+[I 08:03:18.363 NotebookApp] Saving file at /For tests.ipynb
+[I 08:05:17.188 NotebookApp] Saving file at /For tests.ipynb
+[W 08:05:17.605 NotebookApp] SSL Error on 9 ('127.0.0.1', 48332): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:05:18.684 NotebookApp] SSL Error on 9 ('127.0.0.1', 48334): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:05:18.922 NotebookApp] SSL Error on 10 ('127.0.0.1', 48336): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:05:19.076 NotebookApp] Saving file at /For tests.ipynb
+[I 08:07:17.742 NotebookApp] Saving file at /For tests.ipynb
+[I 08:09:17.807 NotebookApp] Saving file at /For tests.ipynb
+[I 08:09:57.110 NotebookApp] Saving file at /For tests.ipynb
+[I 08:10:07.347 NotebookApp] Saving file at /For tests.ipynb
+[I 08:11:17.892 NotebookApp] Saving file at /For tests.ipynb
+[I 08:13:20.060 NotebookApp] Saving file at /For tests.ipynb
+[I 08:15:17.825 NotebookApp] Saving file at /For tests.ipynb
+[I 08:17:18.144 NotebookApp] Saving file at /For tests.ipynb
+[W 08:18:52.604 NotebookApp] SSL Error on 9 ('127.0.0.1', 48368): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:19:16.973 NotebookApp] SSL Error on 9 ('127.0.0.1', 48374): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:19:19.173 NotebookApp] Saving file at /For tests.ipynb
+[W 08:23:16.800 NotebookApp] SSL Error on 9 ('127.0.0.1', 48378): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:24:48.060 NotebookApp] WebSocket ping timeout after 119847 ms.
+[I 08:24:53.063 NotebookApp] Starting buffering for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[W 08:27:32.886 NotebookApp] SSL Error on 10 ('127.0.0.1', 48406): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:27:33.645 NotebookApp] Restoring connection for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[W 08:28:16.312 NotebookApp] SSL Error on 11 ('127.0.0.1', 48410): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:28:16.536 NotebookApp] SSL Error on 12 ('127.0.0.1', 48412): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:29:06.082 NotebookApp] SSL Error on 11 ('127.0.0.1', 48418): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:29:40.524 NotebookApp] SSL Error on 12 ('127.0.0.1', 48422): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:30:07.323 NotebookApp] SSL Error on 12 ('127.0.0.1', 48426): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:30:11.943 NotebookApp] SSL Error on 15 ('127.0.0.1', 48428): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:30:11.944 NotebookApp] SSL Error on 29 ('127.0.0.1', 48430): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:30:12.150 NotebookApp] Saving file at /For tests.ipynb
+[W 08:30:12.501 NotebookApp] SSL Error on 44 ('127.0.0.1', 48432): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:30:25.757 NotebookApp] SSL Error on 15 ('127.0.0.1', 48440): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:31:06.530 NotebookApp] Saving file at /For tests.ipynb
+[W 08:43:33.648 NotebookApp] WebSocket ping timeout after 119837 ms.
+[I 08:43:38.651 NotebookApp] Starting buffering for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[W 08:48:52.523 NotebookApp] SSL Error on 9 ('127.0.0.1', 48454): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:48:53.313 NotebookApp] Restoring connection for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[W 08:49:05.014 NotebookApp] SSL Error on 10 ('127.0.0.1', 48476): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:49:05.167 NotebookApp] SSL Error on 11 ('127.0.0.1', 48478): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:49:05.168 NotebookApp] SSL Error on 12 ('127.0.0.1', 48480): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:58:52.591 NotebookApp] SSL Error on 10 ('127.0.0.1', 48488): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:58:52.750 NotebookApp] SSL Error on 11 ('127.0.0.1', 48490): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:58:52.752 NotebookApp] SSL Error on 12 ('127.0.0.1', 48492): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:02:02.811 NotebookApp] SSL Error on 10 ('127.0.0.1', 48500): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:02:02.870 NotebookApp] SSL Error on 11 ('127.0.0.1', 48502): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:02:02.962 NotebookApp] SSL Error on 12 ('127.0.0.1', 48504): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:06:34.990 NotebookApp] SSL Error on 10 ('127.0.0.1', 48512): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:06:34.992 NotebookApp] SSL Error on 11 ('127.0.0.1', 48514): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:06:35.134 NotebookApp] SSL Error on 12 ('127.0.0.1', 48516): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:16:14.791 NotebookApp] SSL Error on 10 ('127.0.0.1', 48548): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:16:14.806 NotebookApp] SSL Error on 11 ('127.0.0.1', 48550): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:16:14.945 NotebookApp] SSL Error on 12 ('127.0.0.1', 48552): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:20:17.900 NotebookApp] SSL Error on 10 ('127.0.0.1', 48560): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:20:17.915 NotebookApp] SSL Error on 11 ('127.0.0.1', 48562): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:20:18.040 NotebookApp] SSL Error on 12 ('127.0.0.1', 48564): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:22:08.209 NotebookApp] SSL Error on 10 ('127.0.0.1', 48572): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:22:08.331 NotebookApp] SSL Error on 11 ('127.0.0.1', 48574): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:33:21.694 NotebookApp] SSL Error on 10 ('127.0.0.1', 48576): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 09:33:24.389 NotebookApp] Saving file at /For tests.ipynb
+[W 09:43:22.370 NotebookApp] SSL Error on 10 ('127.0.0.1', 48592): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:43:22.385 NotebookApp] SSL Error on 11 ('127.0.0.1', 48594): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:43:22.520 NotebookApp] SSL Error on 12 ('127.0.0.1', 48596): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:51:50.954 NotebookApp] SSL Error on 10 ('127.0.0.1', 48606): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 09:51:53.123 NotebookApp] Saving file at /For tests.ipynb
+[W 09:54:07.069 NotebookApp] SSL Error on 10 ('127.0.0.1', 48614): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:54:07.253 NotebookApp] SSL Error on 11 ('127.0.0.1', 48616): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 09:54:53.458 NotebookApp] Starting buffering for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[W 10:17:35.773 NotebookApp] SSL Error on 9 ('127.0.0.1', 48670): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 10:17:37.026 NotebookApp] Kernel restarted: 6f3e37b8-2f01-4a86-aac4-5df650c3d755
+[W 10:17:37.763 NotebookApp] SSL Error on 15 ('127.0.0.1', 48726): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 10:17:38.474 NotebookApp] Restoring connection for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[I 10:17:38.476 NotebookApp] Replaying 3 buffered messages
+[W 10:18:02.252 NotebookApp] SSL Error on 9 ('127.0.0.1', 48744): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:18:02.400 NotebookApp] SSL Error on 26 ('127.0.0.1', 48746): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:28:51.566 NotebookApp] SSL Error on 9 ('127.0.0.1', 48754): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 10:28:52.607 NotebookApp] Saving file at /For tests.ipynb
+[W 10:36:38.476 NotebookApp] WebSocket ping timeout after 119756 ms.
+[I 10:36:43.478 NotebookApp] Starting buffering for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[W 14:26:08.443 NotebookApp] SSL Error on 9 ('127.0.0.1', 48950): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 14:26:09.154 NotebookApp] Restoring connection for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[W 14:27:06.323 NotebookApp] SSL Error on 15 ('127.0.0.1', 48954): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 14:27:07.993 NotebookApp] Saving file at /For tests.ipynb
+[W 14:45:36.764 NotebookApp] SSL Error on 15 ('127.0.0.1', 48982): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 14:45:38.293 NotebookApp] Saving file at /For tests.ipynb
+[W 15:04:08.210 NotebookApp] SSL Error on 15 ('127.0.0.1', 48990): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 15:04:09.415 NotebookApp] Saving file at /For tests.ipynb
+[W 15:08:09.157 NotebookApp] WebSocket ping timeout after 119713 ms.
+[I 15:08:14.160 NotebookApp] Starting buffering for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[W 17:52:09.563 NotebookApp] SSL Error on 9 ('127.0.0.1', 49182): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 17:52:10.473 NotebookApp] Restoring connection for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[W 18:00:57.783 NotebookApp] SSL Error on 15 ('127.0.0.1', 49190): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 18:00:57.943 NotebookApp] SSL Error on 26 ('127.0.0.1', 49192): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 18:03:47.244 NotebookApp] SSL Error on 15 ('127.0.0.1', 49198): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 18:03:48.963 NotebookApp] Saving file at /For tests.ipynb
+[I 18:13:56.819 NotebookApp] Starting buffering for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[W 18:13:57.690 NotebookApp] SSL Error on 9 ('127.0.0.1', 49222): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 18:13:58.940 NotebookApp] Kernel restarted: 6f3e37b8-2f01-4a86-aac4-5df650c3d755
+[W 18:13:59.591 NotebookApp] SSL Error on 15 ('127.0.0.1', 49268): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 18:14:00.594 NotebookApp] Restoring connection for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[I 18:14:00.595 NotebookApp] Replaying 6 buffered messages
+[W 18:16:43.950 NotebookApp] SSL Error on 31 ('127.0.0.1', 49302): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 18:16:43.983 NotebookApp] SSL Error on 9 ('127.0.0.1', 49300): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 18:16:44.098 NotebookApp] SSL Error on 34 ('127.0.0.1', 49304): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 18:22:17.101 NotebookApp] SSL Error on 9 ('127.0.0.1', 49322): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 18:22:18.416 NotebookApp] Saving file at /For tests.ipynb
+[W 18:37:48.483 NotebookApp] SSL Error on 9 ('127.0.0.1', 49384): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 18:37:50.082 NotebookApp] Saving file at /For tests.ipynb
+[W 18:40:47.570 NotebookApp] SSL Error on 9 ('127.0.0.1', 49394): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 18:40:48.975 NotebookApp] Saving file at /For tests.ipynb
+[W 18:59:17.103 NotebookApp] SSL Error on 9 ('127.0.0.1', 49448): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 18:59:18.324 NotebookApp] Saving file at /For tests.ipynb
+[W 19:15:30.596 NotebookApp] WebSocket ping timeout after 119826 ms.
+[I 19:15:35.599 NotebookApp] Starting buffering for 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[C 19:36:38.561 NotebookApp] received signal 15, stopping
+[I 19:36:38.612 NotebookApp] Shutting down 1 kernel
+[I 19:36:38.641 NotebookApp] Kernel shutdown: 6f3e37b8-2f01-4a86-aac4-5df650c3d755
+[I 19:36:38.641 NotebookApp] Shutting down 0 terminals
+[I 20:52:16.747 NotebookApp] JupyterLab extension loaded from /home/ec2-user/dev/python_env/lib/python3.7/site-packages/jupyterlab
+[I 20:52:16.748 NotebookApp] JupyterLab application directory is /home/ec2-user/dev/python_env/share/jupyter/lab
+[I 20:52:16.753 NotebookApp] Serving notebooks from local directory: /home/ec2-user/dev/sireneTools/src
+[I 20:52:16.753 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 20:52:16.754 NotebookApp] https://localhost:8888/
+[I 20:52:16.755 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 20:52:16.761 NotebookApp] No web browser found: could not locate runnable browser.
+[W 20:52:52.273 NotebookApp] SSL Error on 9 ('127.0.0.1', 38096): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 20:52:53.033 NotebookApp] 404 GET /api/kernels/6f3e37b8-2f01-4a86-aac4-5df650c3d755/channels?session_id=fe6333b9220b447b8b424e191034db49 (127.0.0.1): Kernel does not exist: 6f3e37b8-2f01-4a86-aac4-5df650c3d755
+[W 20:52:53.082 NotebookApp] 404 GET /api/kernels/6f3e37b8-2f01-4a86-aac4-5df650c3d755/channels?session_id=fe6333b9220b447b8b424e191034db49 (127.0.0.1) 51.28ms referer=None
+[W 20:52:57.053 NotebookApp] SSL Error on 10 ('127.0.0.1', 38100): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 20:52:58.062 NotebookApp] Replacing stale connection: 6f3e37b8-2f01-4a86-aac4-5df650c3d755:fe6333b9220b447b8b424e191034db49
+[W 20:53:03.993 NotebookApp] SSL Error on 11 ('127.0.0.1', 38104): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[E 20:53:05.001 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/ec2-user/dev/python_env/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/home/ec2-user/dev/python_env/lib64/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/home/ec2-user/dev/python_env/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 309, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home/ec2-user/dev/python_env/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 387, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 6f3e37b8-2f01-4a86-aac4-5df650c3d755)
+[E 20:53:05.008 NotebookApp] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|c6306fe6|38d6d3ce9d93bfb7160a4752bf8d594e|1607612597",
+      "User-Agent": "Mozilla/5.0 (X11; CrOS x86_64 13505.63.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+      "Origin": "https://localhost:8888",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "https://localhost:8888/notebooks/For%20tests.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+      "Cookie": "username-localhost-8888=\"2|1:0|10:1605637082|23:username-localhost-8888|44:OTQyNWU4YWM3ZmRkNDEyODliMjAwZWVkN2NlMjY0OGM=|eb5743f50da2e273c65c10edf373750a3d548132788cd50cb7275093f3c1e510\"; _xsrf=2|c6306fe6|38d6d3ce9d93bfb7160a4752bf8d594e|1607612597"
+    }
+[E 20:53:05.010 NotebookApp] 500 POST /api/kernels/6f3e37b8-2f01-4a86-aac4-5df650c3d755/restart (127.0.0.1) 7.43ms referer=https://localhost:8888/notebooks/For%20tests.ipynb
+[W 20:53:05.236 NotebookApp] 404 DELETE /api/sessions/93b7548d-dd38-49a1-886f-5b15169c3170 (127.0.0.1): Session not found: session_id='93b7548d-dd38-49a1-886f-5b15169c3170'
+[W 20:53:05.237 NotebookApp] Session not found: session_id='93b7548d-dd38-49a1-886f-5b15169c3170'
+[W 20:53:05.238 NotebookApp] 404 DELETE /api/sessions/93b7548d-dd38-49a1-886f-5b15169c3170 (127.0.0.1) 7.24ms referer=https://localhost:8888/notebooks/For%20tests.ipynb
+[I 20:53:05.501 NotebookApp] Kernel started: 904efdd5-6067-4575-aa07-8f420bc6401b, name: python3
+[W 20:53:06.368 NotebookApp] SSL Error on 26 ('127.0.0.1', 38124): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 20:56:56.673 NotebookApp] Starting buffering for 904efdd5-6067-4575-aa07-8f420bc6401b:fe6333b9220b447b8b424e191034db49
+[W 20:56:58.141 NotebookApp] SSL Error on 10 ('127.0.0.1', 38146): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 20:56:58.813 NotebookApp] Restoring connection for 904efdd5-6067-4575-aa07-8f420bc6401b:fe6333b9220b447b8b424e191034db49
+[I 20:58:13.390 NotebookApp] Starting buffering for 904efdd5-6067-4575-aa07-8f420bc6401b:fe6333b9220b447b8b424e191034db49
+[W 20:58:13.885 NotebookApp] SSL Error on 10 ('127.0.0.1', 38170): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 20:58:14.960 NotebookApp] Kernel restarted: 904efdd5-6067-4575-aa07-8f420bc6401b
+[W 20:58:15.693 NotebookApp] SSL Error on 26 ('127.0.0.1', 38222): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 20:58:16.603 NotebookApp] Restoring connection for 904efdd5-6067-4575-aa07-8f420bc6401b:fe6333b9220b447b8b424e191034db49
+[I 20:58:16.604 NotebookApp] Replaying 6 buffered messages
+[W 21:10:22.133 NotebookApp] SSL Error on 10 ('127.0.0.1', 38778): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 21:10:23.293 NotebookApp] Saving file at /For tests.ipynb
+[W 21:15:15.333 NotebookApp] SSL Error on 10 ('127.0.0.1', 39204): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 21:15:16.520 NotebookApp] Saving file at /For tests.ipynb
+[W 21:28:51.285 NotebookApp] SSL Error on 10 ('127.0.0.1', 40416): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 21:28:52.304 NotebookApp] Saving file at /For tests.ipynb
+[W 21:31:41.453 NotebookApp] SSL Error on 10 ('127.0.0.1', 40866): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 21:31:41.543 NotebookApp] SSL Error on 26 ('127.0.0.1', 40868): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 21:31:41.600 NotebookApp] SSL Error on 40 ('127.0.0.1', 40870): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 21:56:11.753 NotebookApp] SSL Error on 9 ('127.0.0.1', 43692): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 21:56:11.755 NotebookApp] SSL Error on 10 ('127.0.0.1', 43694): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 21:56:11.860 NotebookApp] SSL Error on 26 ('127.0.0.1', 43696): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 22:02:35.063 NotebookApp] SSL Error on 9 ('127.0.0.1', 44028): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 22:02:35.070 NotebookApp] SSL Error on 10 ('127.0.0.1', 44030): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 22:02:35.183 NotebookApp] SSL Error on 26 ('127.0.0.1', 44032): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 22:15:41.055 NotebookApp] Starting buffering for 904efdd5-6067-4575-aa07-8f420bc6401b:fe6333b9220b447b8b424e191034db49
+[W 08:18:12.231 NotebookApp] SSL Error on 9 ('127.0.0.1', 53304): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:18:12.337 NotebookApp] SSL Error on 10 ('127.0.0.1', 53306): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:18:15.066 NotebookApp] SSL Error on 10 ('127.0.0.1', 53310): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:18:15.066 NotebookApp] SSL Error on 22 ('127.0.0.1', 53312): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:18:15.067 NotebookApp] SSL Error on 26 ('127.0.0.1', 53314): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:18:15.067 NotebookApp] SSL Error on 40 ('127.0.0.1', 53316): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:18:15.476 NotebookApp] SSL Error on 42 ('127.0.0.1', 53318): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:18:16.130 NotebookApp] SSL Error on 10 ('127.0.0.1', 53320): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:18:16.905 NotebookApp] SSL Error on 10 ('127.0.0.1', 53330): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:18:19.644 NotebookApp] SSL Error on 10 ('127.0.0.1', 53332): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:18:56.548 NotebookApp] SSL Error on 10 ('127.0.0.1', 53334): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:18:59.651 NotebookApp] SSL Error on 10 ('127.0.0.1', 53336): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:19:00.856 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20201214205215 (127.0.0.1) 2.81ms referer=https://localhost:8888/notebooks/For%20tests.ipynb
+[W 08:19:01.187 NotebookApp] SSL Error on 10 ('127.0.0.1', 53338): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:21:01.129 NotebookApp] Saving file at /For tests.ipynb
+[W 08:23:00.869 NotebookApp] SSL Error on 9 ('127.0.0.1', 53434): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:23:02.167 NotebookApp] Saving file at /For tests.ipynb
+[W 08:25:00.873 NotebookApp] SSL Error on 9 ('127.0.0.1', 53448): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:25:02.181 NotebookApp] Saving file at /For tests.ipynb
+[W 08:27:00.865 NotebookApp] SSL Error on 9 ('127.0.0.1', 53456): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:27:01.581 NotebookApp] Saving file at /For tests.ipynb
+[W 08:35:01.125 NotebookApp] SSL Error on 9 ('127.0.0.1', 54522): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:35:01.838 NotebookApp] Saving file at /For tests.ipynb
+[W 08:40:07.371 NotebookApp] SSL Error on 9 ('127.0.0.1', 54968): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:40:07.843 NotebookApp] SSL Error on 26 ('127.0.0.1', 54970): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:41:00.963 NotebookApp] SSL Error on 9 ('127.0.0.1', 54980): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:41:02.205 NotebookApp] Saving file at /For tests.ipynb
+[W 08:43:00.963 NotebookApp] SSL Error on 9 ('127.0.0.1', 54998): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:43:01.652 NotebookApp] Saving file at /For tests.ipynb
+[W 08:49:00.929 NotebookApp] SSL Error on 9 ('127.0.0.1', 55076): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:49:01.830 NotebookApp] Saving file at /For tests.ipynb
+[W 08:51:00.827 NotebookApp] SSL Error on 9 ('127.0.0.1', 55162): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 08:51:01.595 NotebookApp] Saving file at /For tests.ipynb
+[W 08:51:21.811 NotebookApp] SSL Error on 9 ('127.0.0.1', 55180): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:51:21.828 NotebookApp] SSL Error on 26 ('127.0.0.1', 55182): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:51:21.927 NotebookApp] SSL Error on 40 ('127.0.0.1', 55184): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:51:51.070 NotebookApp] SSL Error on 9 ('127.0.0.1', 55220): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:51:51.096 NotebookApp] SSL Error on 26 ('127.0.0.1', 55222): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 08:51:51.196 NotebookApp] SSL Error on 40 ('127.0.0.1', 55224): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:02:41.118 NotebookApp] SSL Error on 9 ('127.0.0.1', 56672): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:02:41.139 NotebookApp] SSL Error on 26 ('127.0.0.1', 56674): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:02:41.239 NotebookApp] SSL Error on 40 ('127.0.0.1', 56676): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 09:14:41.835 NotebookApp] Starting buffering for 904efdd5-6067-4575-aa07-8f420bc6401b:999202691f85484399e60c7d02df614d
+[W 09:19:13.213 NotebookApp] SSL Error on 10 ('127.0.0.1', 58846): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 09:19:13.659 NotebookApp] Restoring connection for 904efdd5-6067-4575-aa07-8f420bc6401b:999202691f85484399e60c7d02df614d
+[W 09:20:33.848 NotebookApp] SSL Error on 10 ('127.0.0.1', 58874): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:20:33.880 NotebookApp] SSL Error on 26 ('127.0.0.1', 58876): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:20:33.959 NotebookApp] SSL Error on 40 ('127.0.0.1', 58878): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:21:18.949 NotebookApp] SSL Error on 10 ('127.0.0.1', 58886): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:21:19.057 NotebookApp] SSL Error on 26 ('127.0.0.1', 58888): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:21:19.182 NotebookApp] SSL Error on 40 ('127.0.0.1', 58890): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:21:41.413 NotebookApp] SSL Error on 10 ('127.0.0.1', 58908): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:21:41.472 NotebookApp] SSL Error on 26 ('127.0.0.1', 58910): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:21:41.529 NotebookApp] SSL Error on 40 ('127.0.0.1', 58912): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:28:11.549 NotebookApp] SSL Error on 10 ('127.0.0.1', 58926): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:28:11.555 NotebookApp] SSL Error on 26 ('127.0.0.1', 58928): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:28:11.663 NotebookApp] SSL Error on 40 ('127.0.0.1', 58930): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:35:39.063 NotebookApp] SSL Error on 10 ('127.0.0.1', 58942): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:35:39.102 NotebookApp] SSL Error on 26 ('127.0.0.1', 58944): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:35:39.174 NotebookApp] SSL Error on 40 ('127.0.0.1', 58946): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 09:53:13.662 NotebookApp] WebSocket ping timeout after 119814 ms.
+[I 09:53:18.664 NotebookApp] Starting buffering for 904efdd5-6067-4575-aa07-8f420bc6401b:999202691f85484399e60c7d02df614d
+[W 16:02:12.961 NotebookApp] SSL Error on 10 ('127.0.0.1', 36510): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 16:02:12.970 NotebookApp] SSL Error on 9 ('127.0.0.1', 36508): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[C 16:22:20.394 NotebookApp] received signal 15, stopping
+[I 16:22:20.656 NotebookApp] Shutting down 1 kernel
+[I 16:22:20.676 NotebookApp] Kernel shutdown: 904efdd5-6067-4575-aa07-8f420bc6401b
+[I 16:22:20.677 NotebookApp] Shutting down 0 terminals
+[I 10:46:21.677 NotebookApp] JupyterLab extension loaded from /home/ec2-user/dev/python_env/lib/python3.7/site-packages/jupyterlab
+[I 10:46:21.684 NotebookApp] JupyterLab application directory is /home/ec2-user/dev/python_env/share/jupyter/lab
+[I 10:46:21.691 NotebookApp] Serving notebooks from local directory: /home/ec2-user/dev/sireneTools/src
+[I 10:46:21.691 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 10:46:21.691 NotebookApp] https://localhost:8888/
+[I 10:46:21.691 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:46:21.717 NotebookApp] No web browser found: could not locate runnable browser.
+[W 10:46:40.035 NotebookApp] SSL Error on 9 ('127.0.0.1', 42982): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:46:40.037 NotebookApp] SSL Error on 10 ('127.0.0.1', 42984): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:46:47.792 NotebookApp] SSL Error on 9 ('127.0.0.1', 42988): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:46:53.313 NotebookApp] SSL Error on 9 ('127.0.0.1', 42994): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:46:53.352 NotebookApp] SSL Error on 10 ('127.0.0.1', 42996): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:00.234 NotebookApp] SSL Error on 9 ('127.0.0.1', 43002): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:00.235 NotebookApp] SSL Error on 10 ('127.0.0.1', 43004): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 10:47:01.916 NotebookApp] 302 GET /notebooks/src/stats.ipynb (127.0.0.1) 2.85ms
+[W 10:47:03.753 NotebookApp] SSL Error on 10 ('127.0.0.1', 43020): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:03.833 NotebookApp] SSL Error on 11 ('127.0.0.1', 43022): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:03.835 NotebookApp] SSL Error on 12 ('127.0.0.1', 43024): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:03.836 NotebookApp] SSL Error on 13 ('127.0.0.1', 43026): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:03.837 NotebookApp] SSL Error on 14 ('127.0.0.1', 43028): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:05.074 NotebookApp] SSL Error on 10 ('127.0.0.1', 43040): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:05.074 NotebookApp] SSL Error on 11 ('127.0.0.1', 43042): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:05.075 NotebookApp] SSL Error on 12 ('127.0.0.1', 43044): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:05.075 NotebookApp] SSL Error on 13 ('127.0.0.1', 43046): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:24.872 NotebookApp] SSL Error on 9 ('127.0.0.1', 43070): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:24.872 NotebookApp] SSL Error on 10 ('127.0.0.1', 43072): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 10:47:26.074 NotebookApp] 302 GET / (127.0.0.1) 0.72ms
+[I 10:47:26.274 NotebookApp] 302 GET /tree? (127.0.0.1) 0.95ms
+[W 10:47:28.466 NotebookApp] SSL Error on 11 ('127.0.0.1', 43090): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:28.467 NotebookApp] SSL Error on 12 ('127.0.0.1', 43092): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:28.472 NotebookApp] SSL Error on 13 ('127.0.0.1', 43094): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:28.474 NotebookApp] SSL Error on 10 ('127.0.0.1', 43088): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:28.475 NotebookApp] SSL Error on 14 ('127.0.0.1', 43096): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:39.313 NotebookApp] SSL Error on 10 ('127.0.0.1', 43108): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:39.315 NotebookApp] SSL Error on 9 ('127.0.0.1', 43106): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 10:47:40.963 NotebookApp] 302 POST /login?next=%2Ftree%3F (127.0.0.1) 129.73ms
+[W 10:47:42.425 NotebookApp] SSL Error on 10 ('127.0.0.1', 43120): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:42.440 NotebookApp] SSL Error on 11 ('127.0.0.1', 43122): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:42.449 NotebookApp] SSL Error on 12 ('127.0.0.1', 43124): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:44.328 NotebookApp] SSL Error on 12 ('127.0.0.1', 43136): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:45.233 NotebookApp] SSL Error on 12 ('127.0.0.1', 43144): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:45.234 NotebookApp] SSL Error on 13 ('127.0.0.1', 43146): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:45.235 NotebookApp] SSL Error on 14 ('127.0.0.1', 43148): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:54.673 NotebookApp] SSL Error on 9 ('127.0.0.1', 43154): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:54.675 NotebookApp] SSL Error on 10 ('127.0.0.1', 43156): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:57.626 NotebookApp] SSL Error on 10 ('127.0.0.1', 43172): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:57.706 NotebookApp] SSL Error on 11 ('127.0.0.1', 43174): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:57.785 NotebookApp] SSL Error on 12 ('127.0.0.1', 43176): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:57.787 NotebookApp] SSL Error on 13 ('127.0.0.1', 43178): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:47:57.793 NotebookApp] SSL Error on 14 ('127.0.0.1', 43180): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:48:04.885 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20201219104620 (127.0.0.1) 12.45ms referer=https://localhost:8888/notebooks/stats.ipynb
+[I 10:48:06.742 NotebookApp] Kernel started: 7e80d865-fe33-463b-bf0d-3a0b8fb80b4a, name: python3
+[W 10:48:08.785 NotebookApp] SSL Error on 31 ('127.0.0.1', 43242): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:50:17.367 NotebookApp] SSL Error on 9 ('127.0.0.1', 43270): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 10:51:01.735 NotebookApp] Starting buffering for 7e80d865-fe33-463b-bf0d-3a0b8fb80b4a:31be5dd5713945879d0edc5905d9e7fa
+[W 10:52:59.313 NotebookApp] SSL Error on 9 ('127.0.0.1', 43316): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 10:53:00.558 NotebookApp] 302 GET /notebooks (127.0.0.1) 3.83ms
+[I 10:53:08.295 NotebookApp] Saving file at /stats.ipynb
+[W 10:53:09.273 NotebookApp] SSL Error on 10 ('127.0.0.1', 43328): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:53:10.011 NotebookApp] SSL Error on 10 ('127.0.0.1', 43334): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:53:10.957 NotebookApp] SSL Error on 10 ('127.0.0.1', 43340): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:53:11.993 NotebookApp] SSL Error on 10 ('127.0.0.1', 43344): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[C 10:53:24.030 NotebookApp] received signal 15, stopping
+[I 10:53:24.034 NotebookApp] Shutting down 1 kernel
+[I 10:53:24.039 NotebookApp] Kernel shutdown: 7e80d865-fe33-463b-bf0d-3a0b8fb80b4a
+[I 10:53:24.041 NotebookApp] Shutting down 0 terminals
+[I 10:53:31.658 NotebookApp] JupyterLab extension loaded from /home/ec2-user/dev/python_env/lib/python3.7/site-packages/jupyterlab
+[I 10:53:31.660 NotebookApp] JupyterLab application directory is /home/ec2-user/dev/python_env/share/jupyter/lab
+[I 10:53:31.664 NotebookApp] Serving notebooks from local directory: /home/ec2-user/dev/sireneTools/src
+[I 10:53:31.665 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 10:53:31.666 NotebookApp] https://localhost:8888/
+[I 10:53:31.667 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:53:31.674 NotebookApp] No web browser found: could not locate runnable browser.
+[W 10:53:34.032 NotebookApp] SSL Error on 9 ('127.0.0.1', 43358): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:53:34.034 NotebookApp] SSL Error on 10 ('127.0.0.1', 43360): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:53:37.673 NotebookApp] SSL Error on 11 ('127.0.0.1', 43376): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:53:37.675 NotebookApp] SSL Error on 12 ('127.0.0.1', 43378): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:53:37.705 NotebookApp] SSL Error on 13 ('127.0.0.1', 43380): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:53:38.640 NotebookApp] SSL Error on 11 ('127.0.0.1', 43390): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:53:38.642 NotebookApp] SSL Error on 12 ('127.0.0.1', 43392): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:53:38.644 NotebookApp] SSL Error on 14 ('127.0.0.1', 43396): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:53:38.645 NotebookApp] SSL Error on 13 ('127.0.0.1', 43394): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 10:53:46.567 NotebookApp] Saving file at /stats.ipynb
+[E 10:53:49.642 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/ec2-user/dev/python_env/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/home/ec2-user/dev/python_env/lib64/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/home/ec2-user/dev/python_env/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 309, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home/ec2-user/dev/python_env/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 387, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 7e80d865-fe33-463b-bf0d-3a0b8fb80b4a)
+[E 10:53:49.647 NotebookApp] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Sec-Ch-Ua": "\"Google Chrome\";v=\"87\", \" Not;A Brand\";v=\"99\", \"Chromium\";v=\"87\"",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Xsrftoken": "2|c6306fe6|38d6d3ce9d93bfb7160a4752bf8d594e|1607612597",
+      "X-Requested-With": "XMLHttpRequest",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (X11; CrOS x86_64 13505.63.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36",
+      "Origin": "https://localhost:8888",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "https://localhost:8888/notebooks/stats.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+      "Cookie": "_xsrf=2|c6306fe6|38d6d3ce9d93bfb7160a4752bf8d594e|1607612597; username-localhost-8888=\"2|1:0|10:1608374860|23:username-localhost-8888|44:NzBkODQ4M2ExZWIxNDU3YjlkNjY2NzdmZDcxMmEzNDg=|218f86ea9e1ba51eedf32321f1ca7c2d895c4cbf36d329e545f557d1abc626b8\""
+    }
+[E 10:53:49.649 NotebookApp] 500 POST /api/kernels/7e80d865-fe33-463b-bf0d-3a0b8fb80b4a/restart (127.0.0.1) 6.46ms referer=https://localhost:8888/notebooks/stats.ipynb
+[W 10:53:49.833 NotebookApp] 404 DELETE /api/sessions/41288f09-9622-4f31-a5a1-ca2f93a690d7 (127.0.0.1): Session not found: session_id='41288f09-9622-4f31-a5a1-ca2f93a690d7'
+[W 10:53:49.835 NotebookApp] Session not found: session_id='41288f09-9622-4f31-a5a1-ca2f93a690d7'
+[W 10:53:49.836 NotebookApp] 404 DELETE /api/sessions/41288f09-9622-4f31-a5a1-ca2f93a690d7 (127.0.0.1) 3.63ms referer=https://localhost:8888/notebooks/stats.ipynb
+[I 10:53:50.080 NotebookApp] Kernel started: 9381f538-73d4-4260-95d2-05eacefd1f06, name: python3
+[W 10:53:51.305 NotebookApp] SSL Error on 26 ('127.0.0.1', 43416): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:28.505 NotebookApp] SSL Error on 10 ('127.0.0.1', 43436): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:28.512 NotebookApp] SSL Error on 39 ('127.0.0.1', 43438): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:29.833 NotebookApp] SSL Error on 40 ('127.0.0.1', 43450): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:31.273 NotebookApp] SSL Error on 41 ('127.0.0.1', 43458): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:32.545 NotebookApp] SSL Error on 41 ('127.0.0.1', 43466): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:32.552 NotebookApp] SSL Error on 42 ('127.0.0.1', 43468): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:32.585 NotebookApp] SSL Error on 43 ('127.0.0.1', 43470): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:41.912 NotebookApp] SSL Error on 41 ('127.0.0.1', 43478): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:41.952 NotebookApp] SSL Error on 42 ('127.0.0.1', 43480): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:41.954 NotebookApp] SSL Error on 43 ('127.0.0.1', 43482): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 10:54:42.693 NotebookApp] Kernel started: 889fdffe-7b82-4120-b298-dfaf9387f353, name: python3
+[W 10:54:43.019 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20201219105330 (127.0.0.1) 26.53ms referer=https://localhost:8888/notebooks/For%20tests.ipynb
+[W 10:54:43.712 NotebookApp] SSL Error on 10 ('127.0.0.1', 43514): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:52.712 NotebookApp] SSL Error on 57 ('127.0.0.1', 43542): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:54:52.716 NotebookApp] SSL Error on 58 ('127.0.0.1', 43544): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:56:39.485 NotebookApp] SSL Error on 57 ('127.0.0.1', 43558): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:56:39.512 NotebookApp] SSL Error on 58 ('127.0.0.1', 43560): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:57:13.673 NotebookApp] SSL Error on 58 ('127.0.0.1', 43576): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 10:57:13.681 NotebookApp] SSL Error on 57 ('127.0.0.1', 43574): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:00:39.705 NotebookApp] SSL Error on 57 ('127.0.0.1', 43598): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:00:39.835 NotebookApp] SSL Error on 59 ('127.0.0.1', 43602): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:00:39.837 NotebookApp] SSL Error on 58 ('127.0.0.1', 43600): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:04:15.541 NotebookApp] SSL Error on 57 ('127.0.0.1', 43624): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 11:04:26.961 NotebookApp] Starting buffering for 889fdffe-7b82-4120-b298-dfaf9387f353:d233b5b948c54310964d29e3b5ebb1c2
+[I 11:04:26.978 NotebookApp] Starting buffering for 9381f538-73d4-4260-95d2-05eacefd1f06:31be5dd5713945879d0edc5905d9e7fa
+[C 11:04:54.940 NotebookApp] received signal 15, stopping
+[I 11:04:55.120 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[I 11:04:55.276 NotebookApp] Shutting down 2 kernels
+[I 11:04:55.297 NotebookApp] Kernel shutdown: 9381f538-73d4-4260-95d2-05eacefd1f06
+[I 11:04:57.106 NotebookApp] Kernel shutdown: 889fdffe-7b82-4120-b298-dfaf9387f353
+[I 11:04:57.106 NotebookApp] Shutting down 0 terminals
+[I 11:04:57.107 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 11:09:47.194 NotebookApp] JupyterLab extension loaded from /home/ec2-user/dev/python_env/lib/python3.7/site-packages/jupyterlab
+[I 11:09:47.195 NotebookApp] JupyterLab application directory is /home/ec2-user/dev/python_env/share/jupyter/lab
+[I 11:09:47.199 NotebookApp] Serving notebooks from local directory: /home/ec2-user/dev/sireneTools/src
+[I 11:09:47.199 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 11:09:47.199 NotebookApp] https://localhost:8888/
+[I 11:09:47.199 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 11:09:47.204 NotebookApp] No web browser found: could not locate runnable browser.
+[W 11:15:15.832 NotebookApp] SSL Error on 9 ('127.0.0.1', 36728): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:15:15.986 NotebookApp] SSL Error on 10 ('127.0.0.1', 36730): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 11:15:17.114 NotebookApp] 302 GET /notebooks/ (127.0.0.1) 1.97ms
+[W 11:15:18.832 NotebookApp] SSL Error on 10 ('127.0.0.1', 36734): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:15:18.832 NotebookApp] SSL Error on 11 ('127.0.0.1', 36736): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:15:18.834 NotebookApp] SSL Error on 12 ('127.0.0.1', 36738): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:15:18.834 NotebookApp] SSL Error on 13 ('127.0.0.1', 36740): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:15:19.233 NotebookApp] SSL Error on 14 ('127.0.0.1', 36742): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:15:19.433 NotebookApp] SSL Error on 10 ('127.0.0.1', 36744): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:15:19.786 NotebookApp] SSL Error on 11 ('127.0.0.1', 36746): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:15:20.353 NotebookApp] SSL Error on 10 ('127.0.0.1', 36756): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:15:30.047 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20201219110946 (127.0.0.1) 13.45ms referer=https://localhost:8888/notebooks/stats.ipynb
+[I 11:15:32.672 NotebookApp] Kernel started: 3d567e97-43f6-4466-8184-57c4b6581ab3, name: python3
+[W 11:15:34.091 NotebookApp] SSL Error on 31 ('127.0.0.1', 36776): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:16:03.295 NotebookApp] SSL Error on 44 ('127.0.0.1', 36790): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:16:04.801 NotebookApp] SSL Error on 44 ('127.0.0.1', 36792): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 11:16:05.603 NotebookApp] Kernel started: 198f65e5-3d1e-459c-bf75-286384099035, name: python3
+[W 11:16:06.393 NotebookApp] SSL Error on 48 ('127.0.0.1', 36802): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:16:06.998 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20201219110946 (127.0.0.1) 3.10ms referer=https://localhost:8888/notebooks/For%20tests.ipynb
+[I 11:17:33.716 NotebookApp] Saving file at /stats.ipynb
+[I 11:17:36.507 NotebookApp] Saving file at /stats.ipynb
+[I 11:18:25.883 NotebookApp] Saving file at /stats.ipynb
+[I 11:19:37.241 NotebookApp] Saving file at /stats.ipynb
+[I 11:21:37.562 NotebookApp] Saving file at /stats.ipynb
+[I 11:21:51.111 NotebookApp] Saving file at /stats.ipynb
+[I 11:23:24.687 NotebookApp] Saving file at /stats.ipynb
+[I 11:25:36.891 NotebookApp] Saving file at /stats.ipynb
+[I 11:27:36.799 NotebookApp] Saving file at /stats.ipynb
+[I 11:29:37.669 NotebookApp] Saving file at /stats.ipynb
+[I 11:31:37.599 NotebookApp] Saving file at /stats.ipynb
+[I 11:33:37.648 NotebookApp] Saving file at /stats.ipynb
+[W 11:34:14.921 NotebookApp] SSL Error on 11 ('127.0.0.1', 36902): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:34:15.105 NotebookApp] SSL Error on 14 ('127.0.0.1', 36904): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 11:43:33.087 NotebookApp] SSL Error on 9 ('127.0.0.1', 37004): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 11:43:39.150 NotebookApp] Saving file at /stats.ipynb
+[I 11:45:37.258 NotebookApp] Saving file at /stats.ipynb
+[W 12:03:33.265 NotebookApp] SSL Error on 9 ('127.0.0.1', 37164): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 12:03:38.852 NotebookApp] Saving file at /stats.ipynb
+[W 12:09:33.385 NotebookApp] SSL Error on 9 ('127.0.0.1', 37194): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 12:09:38.753 NotebookApp] Saving file at /stats.ipynb
+[W 12:23:01.274 NotebookApp] SSL Error on 9 ('127.0.0.1', 37302): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 12:23:01.275 NotebookApp] SSL Error on 11 ('127.0.0.1', 37304): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 12:23:01.426 NotebookApp] SSL Error on 12 ('127.0.0.1', 37306): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[W 12:23:32.512 NotebookApp] SSL Error on 9 ('127.0.0.1', 37312): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 12:23:37.431 NotebookApp] Saving file at /stats.ipynb
+[W 12:24:09.353 NotebookApp] SSL Error on 9 ('127.0.0.1', 37328): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 12:25:36.835 NotebookApp] Saving file at /stats.ipynb
+[I 12:34:50.713 NotebookApp] Starting buffering for 3d567e97-43f6-4466-8184-57c4b6581ab3:994e5a663e444f60830839e8ff4ac071
+[I 12:34:50.713 NotebookApp] Starting buffering for 198f65e5-3d1e-459c-bf75-286384099035:211718aadbe048fbae256781ce3fb6e9
+[W 12:37:33.632 NotebookApp] SSL Error on 12 ('127.0.0.1', 37358): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 12:37:34.276 NotebookApp] Restoring connection for 3d567e97-43f6-4466-8184-57c4b6581ab3:994e5a663e444f60830839e8ff4ac071
+[W 12:37:35.512 NotebookApp] SSL Error on 11 ('127.0.0.1', 37364): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 12:37:36.395 NotebookApp] Restoring connection for 198f65e5-3d1e-459c-bf75-286384099035:211718aadbe048fbae256781ce3fb6e9
+[W 12:41:42.113 NotebookApp] SSL Error on 12 ('127.0.0.1', 37408): [SSL: SSLV3_ALERT_CERTIFICATE_UNKNOWN] sslv3 alert certificate unknown (_ssl.c:1091)
+[I 12:41:53.766 NotebookApp] Saving file at /stats.ipynb
+[W 13:00:04.279 NotebookApp] WebSocket ping timeout after 119446 ms.
+[W 13:00:06.397 NotebookApp] WebSocket ping timeout after 119641 ms.
+[I 13:00:09.281 NotebookApp] Starting buffering for 3d567e97-43f6-4466-8184-57c4b6581ab3:994e5a663e444f60830839e8ff4ac071
+[I 13:00:11.400 NotebookApp] Starting buffering for 198f65e5-3d1e-459c-bf75-286384099035:211718aadbe048fbae256781ce3fb6e9
+[C 13:58:12.137 NotebookApp] received signal 15, stopping
+[I 13:58:12.166 NotebookApp] Shutting down 2 kernels
+[I 13:58:12.188 NotebookApp] Kernel shutdown: 3d567e97-43f6-4466-8184-57c4b6581ab3
+[I 13:58:12.196 NotebookApp] Kernel shutdown: 198f65e5-3d1e-459c-bf75-286384099035
+[I 13:58:12.197 NotebookApp] Shutting down 0 terminals

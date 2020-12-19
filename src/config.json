@@ -1,0 +1,16 @@
+{
+    "paths": {
+        "data": "../data"
+    },
+    "buffers": {
+        "search": "../data/bufferSearch.gz",
+        "titleDomain": "../data/bufferTitleDomain.gz",
+        "domainsToRemove": "../data/domainsToRemove.gz"
+    },
+    "patterns": {
+        "eco": "eco.json",
+        "conf": "conf",
+        "web": "web.json"
+    },
+    "nafs": "../data/newNafs.csv"
+}
