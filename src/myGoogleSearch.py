@@ -3,6 +3,8 @@
 import logging
 logger = logging.getLogger(__name__)
 import myInit
+import traceback
+from urllib.parse import urlparse
 
 config = myInit.getConfig()
 
@@ -25,16 +27,44 @@ from requests_html import HTMLSession
 
 
 def mySearch(row):
+    logger.debug("begin mySearch")
     if 'NOTYET' in row["search"]:
         time.sleep(1)
         try:
-            s = search(row['denomination'],
-                       tld='fr',
-                       lang='fr',
-                       num=10,
-                       pause=2.0)
+            s = []
+            for u in search(row['denomination'],
+                            tld='fr',
+                            lang='fr',
+                            num=5,
+                            stop=5,
+                            pause=2.0):
+                logger.debug(u)
+                s.append(u)
             return s
         except:
+            logger.debug("error")
+            traceback.print_exc()
+            return "NOTYET"
+    else:
+        logger.debug("return row search")
+        return row['search']
+
+
+def searchLinks(row):
+    if True:
+        time.sleep(1)
+        try:
+            s = []
+            for u in search(row['denomination'],
+                            tld='fr',
+                            lang='fr',
+                            num=5,
+                            stop=5,
+                            pause=2.0):
+                s.append(u)
+            return s
+        except:
+            traceback.print_exc()
             return "NOTYET"
     else:
         return row['search']
@@ -66,8 +96,8 @@ def searchGoogle(df, fileDataName):
         buf = bufferSearch.loc[bufferSearch['denomination'] ==
                                row['denomination'], 'search']
         if len(buf) == 0:
-            logger.debug("Not in buffer %s", row['denomination'])
-            r = mySearch(row)
+            r = searchLinks(row)
+            logger.debug("Not in buffer %s : %s", row['denomination'], r)
             bufferSearch = bufferSearch.append(
                 {
                     'denomination': row['denomination'],
