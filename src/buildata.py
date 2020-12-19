@@ -1,4 +1,4 @@
-#!/home/ec2-user/dev/python_env/bin/python
+#!/home/laurent/.platformio/penv/bin//python
 # coding: utf8
 from api_insee.criteria import Field, Periodic
 from api_insee import ApiInsee
