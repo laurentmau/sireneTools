@@ -53,17 +53,12 @@ fileDataName=fileName+".data"
 if not Path(fileDataName).is_file():
     logger.error("Fichier non trouvé : %s", fileDataName)
     sys.exit(2)
-    #file = extract.query(codeCommuneEtablissement=codeCommuneEtablissement, etatAdministratifUniteLegale=etatAdministratifUniteLegale, categorieJuridiqueUniteLegale=categorieJuridiqueUniteLegale, activitePrincipaleUniteLegale=activitePrincipaleUniteLegale, activitePrincipaleEtablissement=activitePrincipaleEtablissement, force=force)
-    
-    #myGoogleSearch.go(file)
-    #fileDataName = builddata.build(codeCommuneEtablissement=codeCommuneEtablissement, etatAdministratifUniteLegale=etatAdministratifUniteLegale, categorieJuridiqueUniteLegale=categorieJuridiqueUniteLegale, activitePrincipaleUniteLegale=activitePrincipaleUniteLegale, activitePrincipaleEtablissement=activitePrincipaleEtablissement)
-    
 ts = pd.read_json(fileDataName, orient='index')
 
 import natsort as ns
 
-ts['groupEffectifUnite'] = pd.Categorical(ts['groupEffectifUnite'], ordered=True, categories= ns.natsorted(ts['groupEffectifUnite'].unique()))
-ts = ts.sort_values('groupEffectifUnite')
+ts['groupEffectifEtablissement'] = pd.Categorical(ts['groupEffectifEtablissement'], ordered=True, categories= ns.natsorted(ts['groupEffectifEtablissement'].unique()))
+ts = ts.sort_values('groupEffectifEtablissement')
 byRegion=pd.pivot_table(ts,
     index=['region'],
     aggfunc='count',
@@ -73,7 +68,13 @@ byRegion=pd.pivot_table(ts,
 print(byRegion)
 
 
+byRegion=pd.pivot_table(ts,
+    index=['activiteEtablissement'],
+    aggfunc='count',
+    values=['siret'],
+    margins=True)
 
+print(byRegion)
 
 byEffectif=pd.pivot_table(ts,index=['groupEffectifUnite' ],
                                         aggfunc='count',
@@ -105,17 +106,26 @@ print (tsg.columns)
 
 #print(ts)
 
-
-
-pvdomain=pd.pivot_table(ts,index=['hasOwnedDomainFinal' ],
-                                    columns=['groupEffectifUnite'],
-                                    aggfunc='count',
-                                    values=['siret'],
-                                    margins=True)
-print(pvdomain)
-ts['CAAverageF'] = ts['CAAverage'].apply(lambda x: "{:,.0f} M€".format((x/1000000)))
-#print(ts[ts['CAAverage']>5000000][["siren", "commune","activiteUnite", "activiteEtablissement", "denomination","groupEffectifUnite","groupEffectifEtablissement" ,"CAAverageF",'ownedDomainFinal']])
+if "hasOwnedDomainFinal" in ts.columns:
+    pvdomain=pd.pivot_table(ts,index=['hasOwnedDomainFinal' ],
+                                        columns=['groupEffectifUnite'],
+                                        aggfunc='count',
+                                        values=['siret'],
+                                        margins=True)
+    print(pvdomain)
+    
+    ts['CAAverageF'] = ts['CAAverage'].apply(lambda x: "{:,.0f} M€".format((x/1000000)))
+    print(ts[ts['CAAverage']>5000000][["siren", "commune","activiteUnite", "activiteEtablissement", "denomination","groupEffectifUnite","groupEffectifEtablissement" ,"CAAverageF",'ownedDomainFinal']])
 
 print(ts['effectifEtablissement'].sum())
 
 
+
+import natsort as ns
+
+ts['groupEffectifUnite'] = pd.Categorical(ts['groupEffectifUnite'], 
+                                          ordered=True, 
+                                          categories=np.append(ns.natsorted(ts['groupEffectifUnite'].unique()), 'total'))
+ts = ts.sort_values('groupEffectifUnite')
+tsg['sum']=tsg[('CAAverage',  'mean')]*tsg[('siren',  'count')]
+tsg.loc(axis=0)[pd.IndexSlice[:,'total']] = v.groupby(level=0).sum().values
