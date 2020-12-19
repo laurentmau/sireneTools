@@ -123,7 +123,7 @@ def calcOwnedDomains(df, logger,fileDataName ):
                 if d not in domainsToRemove:
                     try:
                         session = HTMLSession()
-                        response = session.get(s)
+                        response = session.get(s, timeout=10)
                         t = response.html.find('title', first=True).text
                     except:
                         t="NOT FOUND"
@@ -210,7 +210,6 @@ def go(dumpFile, logger):
         if 'search' not in ts.columns:
             ts['search'] = "NOTYET"
     
-    ts["searchTitle"] = "-"
 
 
     logger.info("Data ready")
