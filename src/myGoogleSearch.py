@@ -55,13 +55,14 @@ def searchLinks(row):
         time.sleep(1)
         try:
             s = []
-            for u in search(row['denomination'],
-                            tld='fr',
-                            lang='fr',
-                            num=5,
-                            stop=5,
-                            pause=2.0):
-                s.append(u)
+            for url in search(row['denomination'],
+                              tld='fr',
+                              lang='fr',
+                              num=5,
+                              stop=5,
+                              pause=2.0):
+                parsed = urlparse(url)
+                s.append(parsed.scheme + "://" + parsed.netloc)
             return s
         except:
             traceback.print_exc()
@@ -236,6 +237,7 @@ def confidenceOwnedDomainFinal(row):
 
 
 def domains(row):
+    return row['search']
     ld = []
     logger.debug("%s : %s", row["denomination"], row["search"])
     for item in row["search"]:
