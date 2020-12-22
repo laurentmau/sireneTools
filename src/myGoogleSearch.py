@@ -7,6 +7,7 @@ import traceback
 from urllib.parse import urlparse
 
 config = myInit.getConfig()
+import sys
 
 import pandas as pd
 import numpy as np
@@ -51,7 +52,7 @@ def mySearch(row):
 
 
 def searchLinks(row):
-    if True:
+    if config["googleSearch"] == "YES":
         time.sleep(1)
         try:
             s = []
@@ -68,6 +69,7 @@ def searchLinks(row):
             traceback.print_exc()
             return "NOTYET"
     else:
+        logger.warning("config[googleSearch]!=YES, no search !")
         return row['search']
 
 
@@ -438,7 +440,6 @@ def go(codeCommuneEtablissement="*",
 
     ts['scoreOwnedDomain1'] = ts.apply(scoreOwnedDomain1, axis=1)
     ts['scoreOwnedDomain2'] = ts.apply(scoreOwnedDomain2, axis=1)
-    logger.debug(".")
 
     ts.reset_index(drop=True, inplace=True)
     ts['ownedDomainFinal'] = ts.apply(ownedDomainFinal, axis=1)
@@ -447,7 +448,6 @@ def go(codeCommuneEtablissement="*",
 
     ts['hasOwnedDomainFinal'] = np.where(ts['ownedDomainFinal'] != 'NONE',
                                          True, False)
-    logger.debug(".")
 
     ts['nbSearch'] = ts.apply(nbSearch, axis=1)
     ts['facebook'] = ts.apply(isFacebook, axis=1)

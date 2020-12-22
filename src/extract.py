@@ -8,12 +8,14 @@ import sys
 import api_insee
 from api_insee import ApiInsee
 from api_insee.criteria import Field, Periodic
-import secret
+import mySecrets
 import pandas as pd
 import hashlib
 import os.path
 import configparser
 from pathlib import Path
+secrets = mySecrets.getSecrets()
+
 config = myInit.getConfig()
 pathDataFiles = config["paths"]["data"]
 REGIONS = {
@@ -183,8 +185,8 @@ def query(codeCommuneEtablissement="*",
             logger.info("Force --> API call")
         else:
             logger.info("File not available --> API call")
-        api = ApiInsee(key=secret.sirene['key'],
-                       secret=secret.sirene['secret'])
+        api = ApiInsee(key=secrets['sirene']['key'],
+                       secret=secrets['sirene']['secret'])
         tot = 0
         from datetime import date
 
@@ -243,7 +245,8 @@ def query(codeCommuneEtablissement="*",
         tous = tous.merge(nafs,
                           left_on="activiteEtablissement",
                           right_on="CODE")
-        tous.rename(columns={"LIBELLE": "activiteEtablissementLibelle"},inplace=True)
+        tous.rename(columns={"LIBELLE": "activiteEtablissementLibelle"},
+                    inplace=True)
         tous.reset_index(inplace=True)
         chunksize = 300000
 

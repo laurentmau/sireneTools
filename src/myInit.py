@@ -1,14 +1,13 @@
 import os
 import json
+import logging
 import logging.config
+logger = logging.getLogger(__name__)
 
 
 def setup_logging(default_path='logging.json',
                   default_level=logging.DEBUG,
                   env_key='LOG_CFG'):
-    """Setup logging configuration
-
-    """
     path = default_path
     value = os.getenv(env_key, None)
     if value:
@@ -26,9 +25,15 @@ def getConfig(default_path='config.json', ):
 
     """
     path = default_path
+    search = os.getenv("SEARCH_GOOGLE", None)
+
     if os.path.exists(path):
         with open(path, 'rt') as f:
             config = json.load(f)
+            if search == "YES":
+                config["googleSearch"] = "YES"
+            else:
+                config["googleSearch"] = "NO"
             return config
 
     else:
