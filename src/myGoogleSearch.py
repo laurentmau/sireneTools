@@ -8,7 +8,8 @@ from urllib.parse import urlparse
 
 config = myInit.getConfig()
 import sys
-
+from google.cloud import firestore
+from doSearchs import Search
 import pandas as pd
 import numpy as np
 import time
@@ -73,51 +74,31 @@ def searchLinks(row):
         return row['search']
 
 
-def searchGoogle(df, fileDataName):
+def searchGoogle(df):
     logger.info("BEGIN OF searchGoogle")
     if "search" not in df.columns:
         df["search"] = "NOTYET"
-    bufferSearchName = config["buffers"]["search"]
-
-    bufferFile = Path(bufferSearchName)
-    if bufferFile.is_file():
-        bufferSearch = pd.read_pickle(bufferFile, compression='gzip')
-    else:
-        bufferSearch = pd.DataFrame(columns=['denomination', 'search'])
-        bufferSearch = bufferSearch.append(
-            {
-                'denomination': "first",
-                'search': "first"
-            }, ignore_index=True)
 
     df['isSearched'] = df.apply(isSearched, axis=1)
     dfSize = len(df.index)
     nbToSearch = len(df[df['isSearched'] == False])
     logger.info(" %d / %d (to be searched / total)", nbToSearch, dfSize)
-
     for index, row in df[df['isSearched'] == False].iterrows():
-        buf = bufferSearch.loc[bufferSearch['denomination'] ==
-                               row['denomination'], 'search']
-        if len(buf) == 0:
+        s = Search(row['denomination'])
+        s.read()
+        r = s.results
+        if "NOTFOUND" in r:
             r = searchLinks(row)
             logger.debug("Not in buffer %s : %s", row['denomination'], r)
-            bufferSearch = bufferSearch.append(
-                {
-                    'denomination': row['denomination'],
-                    "search": r
-                },
-                ignore_index=True)
-
+            search = Search(label=row["denomination"], results=row["search"])
+            search.createBatch()
         else:
-            r = buf.iloc[0]
             logger.debug("In buffer %s, %s", row['denomination'], r)
 
         df.at[index, 'search'] = r
-        if index % 100 == 0:
-            logger.info("(%d / %d) (file saved)", index + 1, nbToSearch)
-            bufferSearch.to_pickle(bufferSearchName, compression='gzip')
-    logger.info("(%d / %d) (file saved)", nbToSearch, nbToSearch)
-    bufferSearch.to_pickle(bufferSearchName, compression='gzip')
+    logger.info("(%d / %d) (commit)", nbToSearch, nbToSearch)
+    Search.commitBatch()
+
     logger.info("END OF searchGoogle")
 
     return df

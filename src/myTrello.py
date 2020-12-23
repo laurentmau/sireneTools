@@ -77,3 +77,32 @@ for b in all_boards:
             logger.info("\n_____________\nList : %s ", l.name)
             for card in l.list_cards():
                 logger.info(card.name)
+
+from google.cloud import datastore
+from google.cloud import firestore
+
+#client = datastore.Client()
+#adding first data
+db = firestore.Client()
+doc_ref = db.collection('employee').document('empdoc')
+
+doc_ref.set({'name': 'Parwiz', 'lname': 'Forogh', 'age': 24}, merge=True)
+
+#adding second data
+doc_ref = db.collection('employee').document('emptwodoc')
+doc_ref.set(
+    {
+        'name': 'John3',
+        'lname': 'Doe',
+        'email': 'john@gmail.com',
+        'age': 24
+    },
+    merge=True)
+
+#Reading the data
+
+emp_ref = db.collection('employee')
+docs = emp_ref.stream()
+
+for doc in docs:
+    print('{} => {} '.format(doc.id, doc.to_dict()))
