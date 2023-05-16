@@ -34,7 +34,7 @@ google-crc32c==1.0.0
 google-resumable-media==1.1.0
 google-search==1.0.2
 googleapis-common-protos==1.52.0
-googlesearch-python==2020.0.2
+googlesearch-python
 greenlet==0.4.17
 grpcio==1.33.2
 hyperlink==20.0.1
